@@ -1,0 +1,1 @@
+This folder will contain the libs which are not in Bower & NPM registry or App specific Custom library

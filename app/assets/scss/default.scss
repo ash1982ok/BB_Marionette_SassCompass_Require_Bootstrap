@@ -1,0 +1,10 @@
+// This is the mail SCSS file which will be converted to default.css
+
+// Variable file which will hold all the variables of application
+@import './_variables';
+
+// All web & tablet styles
+@import './_mediaQueries';
+
+// CSS reset file
+@import './_utils/_normalize';
