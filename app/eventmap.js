@@ -4,8 +4,8 @@ define(["underscore","jquery","backbone","router"],
 
 	var EventMap = {
 		initialize: function(){
-			var pubsub = _.extend({}, Backbone.Events);
-			ACNLifeSci.pubsub = pubsub;
+			//var pubsub = _.extend({}, Backbone.Events);
+			ACNLifeSci.pubsub = new Backbone.Wreqr.EventAggregator();
 		},
 		mapAll: function (){
 			ACNLifeSci.pubsub.on("CHANGE_PAGE:index", function (){
